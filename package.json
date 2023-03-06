@@ -1,0 +1,36 @@
+{
+  "name": "honeybadger-take-home",
+  "private": true,
+  "version": "1.0.0",
+  "description": "\"Honeybadger Test\"",
+  "scripts": {
+    "test": "\"test\"",
+    "start": "clear && concurrently 'vite' 'node server.js'",
+    "dev": "concurrently 'vite' 'nodemon server.js'",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwroge/Honeybadger-Take-Home.git"
+  },
+  "author": "John Wroge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwroge/Honeybadger-Take-Home/issues"
+  },
+  "homepage": "https://github.com/johnwroge/Honeybadger-Take-Home#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "nodemon": "^2.0.21",
+    "vite": "^4.1.0"
+  }
+}
