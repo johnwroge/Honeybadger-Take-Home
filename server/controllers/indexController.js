@@ -39,6 +39,7 @@ Example NOT Spam
 indexController.checkForSpam = (req, res, next) => {
     const { Type, Email } = req.body;
 
+    console.log(req.body)
     if (Type === "SpamNotification"){
         const message = `New spam message from ${Email}}`
         //send message to slack
